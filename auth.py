@@ -1,5 +1,6 @@
-def login(user, password):
-    return "Student A Version"
-
-def authenticate_user(credentials):
-    return "Student B Version"
+def login(username, password):
+    # simple login check
+    if username and password:
+        print("Login successful")
+        return True
+    return False
